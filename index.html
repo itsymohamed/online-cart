@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ONLINE CART</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+</head>
+
+<body class="hidden-bar-wrapper">
+
+<div class="page-wrapper">
+ 	
+    <!-- Preloader -->
+    <div class="preloader">
+		<span></span>
+	</div>
+ 	
+ 	<!-- Main Header -->
+    <header class="main-header">
+    	
+		<!-- Header Top -->
+		<div class="header-top">
+			<div class="auto-container clearfix">
+				
+				<div class="pull-left">
+					<ul class="info">
+						<li><a href="https://wa.me/message/NROUPZLJTCWAK1"><span class="icon flaticon-phone"></span>Call: +212 645859835</a></li>
+						<li><a href="mailto:online@cart.com"><span class="icon flaticon-email-2"></span>online@cart.com</a></li>
+					</ul>
+				</div> 
+				
+				<div class="pull-right clearfix">
+					<!-- Social Box -->
+					<ul class="social-box">
+						<li><a href="https://www.facebook.com/profile.php?id=61552719251579&mibextid=ZbWKwL" target="_blank" class="fa fa-facebook-f"></a></li>
+					
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		
+        <!-- Header Lower -->
+        <div class="header-lower">
+            
+			<div class="auto-container clearfix">
+				<div class="inner-container clearfix">
+					
+					<div class="pull-left logo-box">
+						<div class="logo"><a href="index.html"><img src="images/logo-2.png" width="90" height="90" alt="" title=""></a></div>
+					</div>
+					<div class="nav-outer clearfix">
+						
+						<!-- Mobile Navigation Toggler -->
+						<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+						<!-- Main Menu -->
+						<nav class="main-menu show navbar-expand-md">
+							<div class="navbar-header">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+									<li class="current dropdown"><a href="#">Home</a>
+										<ul>
+											<li><a href="index.html">Homepage Online cart</a></li>
+											
+										</ul>
+									</li>
+									<li class="dropdown"><a href="#">About</a>
+										<ul>
+											<li><a href="about.html">About Us</a></li>
+											
+											
+										</ul>
+									</li>
+									<li class="dropdown"><a href="#">Services</a>
+										<ul>
+											<li><a href="services.html">Services</a></li>
+											
+										</ul>
+									</li>
+									<li class="dropdown"><a href="#">Shop</a>
+										<ul>
+											<li><a href="shop.html">Our Products</a></li>
+											<li><a href="#">Product Single</a></li>
+											<li><a href="#">Shoping Cart</a></li>
+											<li><a href="#">Checkout</a></li>
+										</ul>
+									</li>
+									<li class="dropdown"><a href="#">Blog</a>
+										<ul>
+											<li><a href="#">Our Blog</a></li>
+											<li><a href="#">Blog Single</a></li>
+											
+										</ul>
+									</li>
+									<li><a href="contact.html">Contact us</a></li>
+								</ul>
+							</div>
+							
+						</nav>
+						<!-- Main Menu End-->
+						
+						<!-- Outer Box -->
+						<div class="outer-box clearfix">
+							
+							<!--Search Box-->
+							<div class="search-box-outer">
+								<div class="search-box-btn"><span class="fa fa-search"></span></div>
+							</div>
+							
+							<!-- Cart Box -->
+							<div class="cart-box">
+								<div class="dropdown">
+									<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-bag-2"></span><span class="total-cart">2</span></button>
+									<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu1">
+										<div class="cart-product">
+											<div class="inner">
+												<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+												<div class="image"><img src="data:image/png;base64,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" alt="" /></div>
+												<h3><a href="shoping-cart.html">NETFLIX</a></h3>
+												<div class="quantity-text">Quantity 1 ans</div>
+												<div class="price">249 DH</div>
+											</div>
+										</div>
+										<div class="cart-product">
+											<div class="inner">
+												<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+												<div class="image"><img src="data:image/png;base64,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" alt="" /></div>
+												<h3><a href="shoping-cart.html">Prime video</a></h3>
+												<div class="quantity-text">Quantity 1 ans</div>
+												<div class="price">150 DH</div>
+											</div>
+										</div>
+										<div class="cart-total">Sub Total: 400 DH<span></span></div>
+										<ul class="btns-boxed">
+											
+											<li><a href="https://wa.me/message/NROUPZLJTCWAK1" target="_blank"  >CheckOut</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- End Cart Box -->
+							
+							<!-- Nav Btn -->
+							<div class="nav-btn navSidebar-button"><span class="icon flaticon-dots-menu"></span></div>
+							
+						</div>
+						<!-- End Outer Box -->
+						
+					</div>
+				</div>
+				
+			</div>
+        </div>
+        <!-- End Header Lower -->
+        
+		<!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!-- Logo -->
+                <div class="logo pull-left">
+                    <a href="index.html" title=""><img src="images/logo-2.png"  width="50" height="50" alt="" title=""></a>
+                </div>
+				
+                <!--Right Col-->
+                <div class="pull-right">
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <!--Keep This Empty / Menu will come through Javascript-->
+                    </nav><!-- Main Menu End-->
+					
+					<!-- Outer Box -->
+					<div class="outer-box clearfix">
+						
+						<!--Search Box-->
+						<div class="search-box-outer">
+							<div class="search-box-btn"><span class="fa fa-search"></span></div>
+						</div>
+						
+						<!-- Cart Box 
+						<div class="cart-box">
+							<div class="dropdown">
+								<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-bag-2"></span><span class="total-cart">2</span></button>
+								<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu2">
+									<div class="cart-product">
+										<div class="inner">
+											<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+											<div class="image"><img src="images/resource/post-thumb-1.jpg" alt="" /></div>
+											<h3><a href="shoping-cart.html">Product 01</a></h3>
+											<div class="quantity-text">Quantity 1</div>
+											<div class="price">$99.00</div>
+										</div>
+									</div>
+									<div class="cart-product">
+										<div class="inner">
+											<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
+											<div class="image"><img src="images/resource/post-thumb-2.jpg" alt="" /></div>
+											<h3><a href="shoping-cart.html">Product 02</a></h3>
+											<div class="quantity-text">Quantity 1</div>
+											<div class="price">$99.00</div>
+										</div>
+									</div>
+									<div class="cart-total">Sub Total: <span>$198</span></div>
+									<ul class="btns-boxed">
+										<li><a href="shoping-cart.html">View Cart</a></li>
+										<li><a href="checkout.html">CheckOut</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- End Cart Box -->
+						
+						<!-- Nav Btn -->
+						<div class="nav-btn navSidebar-button"><span class="icon flaticon-dots-menu"></span></div>
+						
+					</div>
+					<!-- End Outer Box -->
+					
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+    
+		<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+	
+    </header>
+    <!-- End Main Header -->
+	
+	<!-- Sidebar Cart Item -->
+	<div class="xs-sidebar-group info-group">
+		<div class="xs-overlay xs-bg-black"></div>
+		<div class="xs-sidebar-widget">
+			<div class="sidebar-widget-container">
+				<div class="widget-heading">
+					<a href="#" class="close-side-widget">
+						X
+					</a>
+				</div>
+				<div class="sidebar-textwidget">
+					
+					<!-- Sidebar Info Content -->
+					<div class="sidebar-info-contents">
+						<div class="content-inner">
+							<div class="logo">
+								<a href="index.html"><img src="images/logo-2.png" alt="" /></a>
+							</div>
+							<div class="content-box">
+								<h5>About Us</h5>
+								<p class="text">مرحبًا بك في موقعنا! نحن نفخر بأنفسنا بكوننا وجهتك الأولى والأفضل في المغرب لشراء حسابات Netflix وحسابات البث الأخرى. مع سجل حافل من الرضا العملاء وتقديم أفضل الخدمات، نضمن لك تجربة تسوق استثنائية. احصل على حسابك اليوم وانضم إلى آلاف العملاء السعداء الذين اختارونا كوجهتهم الأولى للترفيه عبر الإنترنت في المغرب. نحن هنا لخدمتك بكل فخر واحترافية، ونتطلع لخدمتك</p>
+								<a href="https://wa.me/message/NROUPZLJTCWAK1" target="_blank" class="theme-btn btn-style-one"><span class="txt">Consultation</span></a>
+							</div>
+							<div class="contact-info">
+								<h5>Contact Info</h5>
+								<ul class="list-style-one">
+									<li><span class="icon fa fa-location-arrow"></span>TANGER</li>
+									<li><span class="icon fa fa-phone"></span>(+212) 645859535</li>
+									<li><span class="icon fa fa-envelope"></span>online@cart.com</li>
+									<li><span class="icon fa fa-clock-o"></span> 24/24 <span>7/7</span> </li>
+								</ul>
+							</div>
+							<!-- Social Box -->
+							<ul class="social-box">
+								<li><a href="https://web.facebook.com/people/Online-Cart/61552719251579/?mibextid=ZbWKwL" target="_blank" class="fa fa-facebook-f"></a></li>
+								
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END sidebar widget item -->
+	
+	<!-- Main Section -->
+    <section class="main-slider">
+		
+		<div class="main-slider-carousel owl-carousel owl-theme">
+            
+            <div class="slide" style="background-image: url(images/main-slider/slider_1.jpg)">
+				<div class="pattern-layer" style="background-image: url(images/main-slider/pattern-layer.png)"></div>
+				<!-- <div class="color-layer-one"></div>
+				<div class="color-layer-two"></div>
+				<div class="color-layer-three"></div> -->
+				<div class="auto-container">
+					
+					<!-- Content Boxed -->
+					<div class="content-boxed">
+						<div class="inner-box">
+							<div class="title">ONLINE CART </div>
+							<h1>احصل على حسابك الآن أفضل المحتويات الترفيهية بنقرة واحد</h1>
+							<div class="btns-box">
+								<a href="https://wa.me/message/NROUPZLJTCWAK1" class="theme-btn btn-style-two"><span class="txt">Read More <i class="lnr lnr-arrow-right"></i></span></a>
+								<a href="https://wa.me/message/NROUPZLJTCWAK1" class="theme-btn btn-style-three"><span class="txt">Contact Now <i class="lnr lnr-arrow-right"></i></span></a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="slide" style="background-image: url(images/main-slider/slider_2.jpg)">
+				<div class="pattern-layer" style="background-image: url(images/main-slider/pattern-layer.png)"></div>
+				<!-- <div class="color-layer-one"></div>
+				<div class="color-layer-two"></div>
+				<div class="color-layer-three"></div> -->
+				<div class="auto-container">
+					
+					<!-- Content Boxed -->
+					<div class="content-boxed">
+						<div class="inner-box">
+							<div class="title">ONLINE Cart</div>
+							<h1>حسابات اصلية بايمايلك الخاص و جودة عالية 
+								(بدون انقطاع)</h1>
+							<div class="btns-box">
+								<a href="https://wa.me/message/NROUPZLJTCWAK1" class="theme-btn btn-style-two"><span class="txt">Read More <i class="lnr lnr-arrow-right"></i></span></a>
+								<a href="https://wa.me/message/NROUPZLJTCWAK1" class="theme-btn btn-style-three"><span class="txt">Contact Now <i class="lnr lnr-arrow-right"></i></span></a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+	</section>
+	<!-- End Main Section -->
+	
+	<!-- Appointment Section -->
+	<section class="appointment-section" style="background-image: url(images/background/pattern-1.png)">
+		<div class="auto-container">
+			<div class="row clearfix">
+				
+				<!-- Title Column -->
+				<div class="title-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<h3>احصل على حسابك الآن أفضل المحتويات الترفيهية بنقرة واحدة
+						</h3>
+					</div>
+				</div>
+				
+				<!-- Form Column -->
+				<div class="form-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="appointment-form">
+							<form method="post" action="https://wa.me/message/NROUPZLJTCWAK1">
+								<div class="form-group">		
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Appointment Section -->
+	
+	<!-- Services Section -->
+	<section class="services-section" style="background-image: url(images/background/pattern-2.png)">
+		<div class="auto-container">
+			
+			<!-- Upper Section -->
+			<div class="upper-section">
+				<div class="row clearfix">
+					
+					<!-- Service block -->
+					<div class="service-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<span class="border-one"></span>
+							<span class="border-two"></span>
+							<h4><a href="services-detail.html">NETFLIX</a></h4>
+							<div class="text">"Netflix est une plateforme de streaming qui révolutionne la manière dont nous regardons des films et des séries. </div>
+							<div class="icon"><img src="https://www.svgrepo.com/show/303341/netflix-1-logo.svg" alt="" /></div>
+							<a class="services" href="https://wa.me/message/NROUPZLJTCWAK1">Get  Service <span class="arrow lnr lnr-arrow-right"></span></a>
+						</div>
+					</div>
+					
+					<!-- Service block -->
+					<div class="service-block active col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<span class="border-one"></span>
+							<span class="border-two"></span>
+							<h4><a href="services-detail.html">OSN PLUS</a></h4>
+							<div class="text">OSN Plus vous transporte dans un univers où l'action, le suspense et l'aventure sont à portée de main. Plongez dans des séries telles que '<h6> Games of Thrones</h6></div>
+							<div class="icon"><img src="https://play-lh.googleusercontent.com/z1opRfvyuGGsi-LBhL1g9XQQxAWsvLlvWfIFDdyFEWoJFUEIYrDo80BUS-F5JA01zYU" alt="" /></div>
+							<a class="services" href="https://wa.me/message/NROUPZLJTCWAK1">Get  Service <span class="arrow lnr lnr-arrow-right"></span></a>
+						</div>
+					</div>
+					
+					<!-- Service block -->
+					<div class="service-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<span class="border-one"></span>
+							<span class="border-two"></span>
+							<h4><a href="services-detail.html">TOD 4K</a></h4>
+							<div class="text">TOD la plateforme de streaming qui allie la puissance des séries cultes comme 'Game of Thrones' et l'excitation du sport en direct</div>
+							<div class="icon"><img src="data:image/jpeg;base64,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" alt="" /></div>
+							<a class="services" href="https://wa.me/message/NROUPZLJTCWAK1">Get  Service <span class="arrow lnr lnr-arrow-right"></span></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<!-- End Upper Section -->
+			
+			<!-- Lower Section -->
+			<div class="lower-section">
+				<div class="row clearfix">
+					
+					<!-- Image Column -->
+					<div class="image-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column titlt" data-tilt data-tilt-max="3">
+							<div class="color-layer"></div>
+							<div class="border-layer"></div>
+							<div class="image">
+								<img src="images/resource/service-1.png" alt="" />
+							</div>
+						</div>
+					</div>
+					
+					<!-- Content Column -->
+					<div class="content-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<!-- Sec Title -->
+							<div class="sec-title">
+								<div class="title">WHO WE ARE</div>
+								<h2>اكتشف عالمك الرقمي استعرض تشكيلتنا من الحسابات الرائعة</h2>
+							</div>
+							
+							<div class="text">مرحبًا بك في موقعنا! نحن نفخر بأنفسنا بكوننا وجهتك الأولى والأفضل في المغرب لشراء حسابات  وحسابات البث الأخرى. مع سجل حافل من الرضا العملاء وتقديم أفضل الخدمات، نضمن لك تجربة تسوق استثنائية. احصل على حسابك اليوم وانضم إلى آلاف العملاء السعداء الذين اختارونا كوجهتهم الأولى للترفيه عبر الإنترنت في المغرب. نحن هنا لخدمتك بكل فخر واحترافية، ونتطلع لخدمتك
+
+							</div>
+							<a href="https://wa.me/message/NROUPZLJTCWAK1" target="_blank" class="theme-btn btn-style-four"><span class="txt">réserver sur whatsapp<i class="lnr lnr-arrow-right"></i></span></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<!-- End Lower Section -->
+			
+		</div>
+	</section>
+	<!-- End Services Section -->
+	
+	<!-- Pricing Section -->
+	<section class="pricing-section" style="background-image: url(images/background/pattern-3.png)">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title light centered">
+				<div class="title">Pricing Plan</div>
+				<h2>Choose your plan</h2>
+			</div>
+			<!-- End Sec Title -->
+			<div class="row clearfix">
+				
+				<!-- Price Block -->
+				<div class="price-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
+							<ul class="icon-list">
+								<li><span class="icon"><img src=https://www.svgrepo.com/show/303341/netflix-1-logo.svg alt="" /></span></li>
+							</ul>
+							<h4>NETFLIX 4K <span>249 DH / 12 Mois</span></h4>
+						</div>
+						<div class="lower-box">
+							<ul class="price-list">
+								<li>Avec votre email</li>
+								<li>5 Profile</li>
+								<li>Quality 4K</li>
+								<li>Unlimited devices</li>
+							</ul>
+							<div class="button-box">
+								<a href="https://wa.me/message/NROUPZLJTCWAK1" target="_blank" class="theme-btn btn-style-four"><span class="txt">Réserver sur whatsapp</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Price Block -->
+				<div class="price-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="150ms" data-wow-duration="1500ms">
+						<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
+							<ul class="icon-list">
+								<li><span class="icon"><img src="https://etshop.ma/wp-content/uploads/2024/01/shahid-vip.jpg" alt="" /></span></li>
+							</ul>
+							<h4> SHAHID VIP<span> 150 DH / 12 Mois</span></h4>
+						</div>
+						<div class="lower-box">
+							<ul class="price-list">
+								<li>Avec votre email</li>
+								<li>5 Profile</li>
+								<li>Quality 4K</li>
+								<li>Unlimited devices</li>
+							</ul>
+							<div class="button-box">
+								<a href="https://wa.me/message/NROUPZLJTCWAK1" target="_blank" class="theme-btn btn-style-four"><span class="txt">Réserver sur whatsapp</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Price Block -->
+				<div class="price-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+						<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
+							<ul class="icon-list">
+								<li><span class="icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBLbVu6h-knyDE6zuvKIFSn9CxBWosvTnBQzEpCvaEfA&s" alt="" /></span></li>
+							</ul>
+							<h4>PRIME VIDEO <span>150 DH / 12 Mois</span></h4>
+						</div>
+						<div class="lower-box">
+							<ul class="price-list">
+								<li>Avec votre email</li>
+								<li>5 Profile</li>
+								<li>Quality 4K</li>
+								<li>Unlimited devices</li>
+							</ul>
+							<div class="button-box">
+								<a href="https://wa.me/message/NROUPZLJTCWAK1" target="_blank" class="theme-btn btn-style-four"><span class="txt">Réserver sur whatsapp</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Price Block -->
+				<div class="price-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="450ms" data-wow-duration="1500ms">
+						<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
+							<ul class="icon-list">
+								<li><span class="icon"><img src="https://www.svgrepo.com/show/303341/netflix-1-logo.svg" alt="" /></span></li>
+								<li><span class="icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBLbVu6h-knyDE6zuvKIFSn9CxBWosvTnBQzEpCvaEfA&s" alt="" /></span></li>
+								<li><span class="icon"><img src="https://etshop.ma/wp-content/uploads/2024/01/shahid-vip.jpg" alt="" /></span></li>
+							</ul>
+							<h4>Netflix + Prime + Shahid vip + Spotify <span> 500 DH / 12 Mois</span></h4>
+						</div>
+						<div class="lower-box">
+							<ul class="price-list">
+								<li>Avec votre email</li>
+								<li>5 Profile</li>
+								<li>Quality 4K</li>
+								
+							</ul>
+							<div class="button-box">
+								<a href="https://wa.me/message/NROUPZLJTCWAK1" target="_blank" class="theme-btn btn-style-four"><span class="txt">Réserver sur whatsapp</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Pricing Section -->
+	
+	<!-- Facility Section -->
+	<section class="facility-section" style="background-image: url(images/background/pattern-6.png)">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title">
+				<div class="clearfix">
+					<div class="pull-left">
+						<div class="title">Our Facility</div>
+						<h2>بعض الأسباب الرائعة التي تجعلك تختارنا <br> ONLINE CART</h2>
+					</div>
+					<div class="pull-right">
+					</div>
+				</div>
+			</div>
+			<!-- End Sec Title -->
+			<div class="row clearfix">
+			
+				<!-- Blocks Column -->
+				<div class="blocks-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="row clearfix">
+							
+							<!-- Facility Block -->
+							<div class="facility-block col-lg-6 col-md-6 col-sm-12">
+								<div class="inner-box">
+									<div class="pattern-layer" style="background-image: url(images/background/pattern-14.png)"></div>
+									<div class="icon-box flaticon-swimming-pool"></div>
+									<h5><a href="#">نحن نساعدك في تثبيت الحساب</a></h5>
+									<div class="text"></div>
+								</div>
+							</div>
+							
+							<!-- Facility Block -->
+							<div class="facility-block col-lg-6 col-md-6 col-sm-12">
+								<div class="inner-box">
+									<div class="pattern-layer" style="background-image: url(images/background/pattern-14.png)"></div>
+									<div class="icon-box flaticon-5g"></div>
+									<h5><a href="#">اتصال فائق السرعة</a></h5>
+									<div class="text">.</div>
+								</div>
+							</div>
+							
+							<!-- Facility Block -->
+							<div class="facility-block col-lg-6 col-md-6 col-sm-12">
+								<div class="inner-box">
+									<div class="pattern-layer" style="background-image: url(images/background/pattern-14.png)"></div>
+									<div class="icon-box flaticon-8k"></div>
+									<h5><a href="#">4K <br> جودة </a></h5>
+									<div class="text"></div>
+								</div>
+							</div>
+							
+							<!-- Facility Block -->
+							<div class="facility-block col-lg-6 col-md-6 col-sm-12">
+								<div class="inner-box">
+									<div class="pattern-layer" style="background-image: url(images/background/pattern-14.png)"></div>
+									<div class="icon-box flaticon-customer-service"></div>
+									<h5><a href="#">دعم سريع على مدار الساعة<br> 24/7</a></h5>
+									<div class="text"></div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				
+				<!-- Image Column -->
+				<div class="image-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="pattern-layer"></div>
+						<div class="image wow slideInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<img src="images/resource/facility.png" alt="" />
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Facility Section -->
+	
+	<!-- Internet Section -->
+	<section class="internet-section" style="background-image: url(images/background/11.jpg)">
+		<div class="auto-container">
+			<div class="clearfix">
+				<div class="content-column">
+					<h2>Online-Cart</h2>
+					<div class="text"></div>
+					<div class="price"></div>
+					<a href="https://wa.me/message/NROUPZLJTCWAK1" class="theme-btn btn-style-four"><span class="txt">Read More <i class="lnr lnr-arrow-right"></i></span></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Internet Section -->
+	
+	<!-- Testimonial Section -->
+	<section class="testimonial-section">
+		<div class="image-layer" style="background-image: url(images/background/pattern-7.png)"></div>
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title centered">
+				<div class="title">online Cart</div>
+				<h2>ماذا يقول عملاؤنا</h2>
+			</div>
+			<!-- End Sec Title -->
+			
+			<div class="testimonial-carousel owl-carousel owl-theme">
+				
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="upper-box">
+							<div class="text">تبارك الله عليك خويا وعلى العمل ديالك ناس صراحة  في المستوى المهني والأخلاقي و الخدمة على مستوى عالي و في دقائق يتمون لك طلباتك 
+								ربي معاكم خويا</div>
+						</div>
+						<div class="lower-box">
+							<div class="color-layer"></div>
+							<div class="pattern-layer" style="background-image: url(images/background/pattern-8.png)"></div>
+							<div class="author-image-outer">
+								<span class="quote-icon fa fa-quote-left"></span>
+								<div class="author-image">
+									<img src="#" alt="" />
+								</div>								
+							</div>
+							<div class="author-name">Soumia mernissi</div>
+							<div class="designation">casablanca</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="upper-box">
+							<div class="text">Service excellent, de qualité, très professionnel ... je recommande vivement</div>
+						</div>
+						<div class="lower-box">
+							<div class="color-layer"></div>
+							<div class="pattern-layer" style="background-image: url(images/background/pattern-8.png)"></div>
+							<div class="author-image-outer">
+								<span class="quote-icon fa fa-quote-left"></span>
+								<div class="author-image">
+									<img src="#" alt="" />
+								</div>								
+							</div>
+							<div class="author-name">kamal deghmali</div>
+							<div class="designation">Nador</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="upper-box">
+							<div class="text">أحسن واحد الصواب و الآداب و الجودة لهلا  يخطيك </div>
+						</div>
+						<div class="lower-box">
+							<div class="color-layer"></div>
+							<div class="pattern-layer" style="background-image: url(images/background/pattern-8.png)"></div>
+							<div class="author-image-outer">
+								<span class="quote-icon fa fa-quote-left"></span>
+								<div class="author-image">
+									<img src="#" alt="" />
+								</div>								
+							</div>
+							<div class="author-name">Fatima Zahrae</div>
+							<div class="designation">Fes</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Testimonial Section -->
+	
+	<!-- Clients Section -->
+	<section class="clients-section">
+		<div class="auto-container">
+			
+			<div class="carousel-outer">
+                <!--Sponsors Slider-->
+                <ul class="sponsors-carousel owl-carousel owl-theme">
+                  
+                </ul>
+            </div>
+			
+		</div>
+	</section>
+	<!-- End Clients Section -->
+	
+	<!-- Featured Section -->
+	<section class="featured-section">
+		<div class="pattern-layer-one" style="background-image: url(images/background/pattern-9.png)"></div>
+		<div class="pattern-layer-two" style="background-image: url(images/background/pattern-10.png)"></div>
+		<div class="auto-container">
+		
+			<!-- Sec Title -->
+			<div class="sec-title light">
+				<div class="clearfix">
+					<div class="pull-left">
+						<div class="title">Now Showing</div>
+						<h2>Featured showing</h2>
+					</div>
+					<div class="pull-right">
+						<div class="button-box">
+							<a href="#" class="theme-btn btn-style-two"><span class="txt">View More <i class="lnr lnr-arrow-right"></i></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Sec Title -->
+			
+			<div class="row clearfix">
+				
+				<!-- Feature Block -->
+				<div class="feature-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="#" class="lightbox-image video-box"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
+							<img src="images/resource/feature-1.jpg" alt="" />
+							<div class="overlay-box">
+								<ul class="post-meta">
+									<li><span class="icon fa fa-star"></span>5.7</li>
+									<li><span class="icon fa fa-comment"></span>25</li>
+								</ul>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="clearfix">
+								<div class="pull-left">
+									<h6><a href="movie.html"></a></h6>
+								</div>
+								<div class="pull-right">
+									<div class="year"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
+							<img src="images/resource/feature-2.jpg" alt="" />
+							<div class="overlay-box">
+								<ul class="post-meta">
+									<li><span class="icon fa fa-star"></span>5.7</li>
+									<li><span class="icon fa fa-comment"></span>25</li>
+								</ul>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="clearfix">
+								<div class="pull-left">
+									<h6><a href="#"></a></h6>
+								</div>
+								<div class="pull-right">
+									<div class="year"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
+							<img src="images/resource/feature-3.jpg" alt="" />
+							<div class="overlay-box">
+								<ul class="post-meta">
+									<li><span class="icon fa fa-star"></span>5.7</li>
+									<li><span class="icon fa fa-comment"></span>25</li>
+								</ul>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="clearfix">
+								<div class="pull-left">
+									<h6><a href="movie.html"></a></h6>
+								</div>
+								<div class="pull-right">
+									<div class="year"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
+							<img src="images/resource/feature-4.jpg" alt="" />
+							<div class="overlay-box">
+								<ul class="post-meta">
+									<li><span class="icon fa fa-star"></span>5.7</li>
+									<li><span class="icon fa fa-comment"></span>25</li>
+								</ul>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="clearfix">
+								<div class="pull-left">
+									<h6><a href="#"></a></h6>
+								</div>
+								<div class="pull-right">
+									<div class="year"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
+							<img src="https://fr.web.img4.acsta.net/pictures/17/11/10/12/18/2448823.jpg" alt="" />
+							<div class="overlay-box">
+								<ul class="post-meta">
+									<li><span class="icon fa fa-star"></span>5.7</li>
+									<li><span class="icon fa fa-comment"></span>25</li>
+								</ul>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="clearfix">
+								<div class="pull-left">
+									<h6><a href="movie.html"></a></h6>
+								</div>
+								<div class="pull-right">
+									<div class="year"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
+							<img src="images/resource/feature-6.jpg" alt="" />
+							<div class="overlay-box">
+								<ul class="post-meta">
+									<li><span class="icon fa fa-star"></span>5.7</li>
+									<li><span class="icon fa fa-comment"></span>25</li>
+								</ul>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="clearfix">
+								<div class="pull-left">
+									<h6><a href="movie.html"></a></h6>
+								</div>
+								<div class="pull-right">
+									<div class="year"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
+							<img src="images/resource/feature-7.jpg" alt="" />
+							<div class="overlay-box">
+								<ul class="post-meta">
+									<li><span class="icon fa fa-star"></span>5.7</li>
+									<li><span class="icon fa fa-comment"></span>25</li>
+								</ul>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="clearfix">
+								<div class="pull-left">
+									<h6><a href="movie.html"></a></h6>
+								</div>
+								<div class="pull-right">
+									<div class="year"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="#" class="lightbox-image video-box"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
+							<img src="https://m.media-amazon.com/images/M/MV5BNDQxOGI4ZjItM2NhZC00Y2FhLWEwZTAtZTc2MmJmNzY1MjViXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg" alt="" />
+							<div class="overlay-box">
+								<ul class="post-meta">
+									<li><span class="icon fa fa-star"></span>5.7</li>
+									<li><span class="icon fa fa-comment"></span>25</li>
+								</ul>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="clearfix">
+								<div class="pull-left">
+									<h6><a href="#"></a></h6>
+								</div>
+								<div class="pull-right">
+									<div class="year"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
+							<img src="images/resource/feature-9.jpg" alt="" />
+							<div class="overlay-box">
+								<ul class="post-meta">
+									<li><span class="icon fa fa-star"></span>5.7</li>
+									<li><span class="icon fa fa-comment"></span>25</li>
+								</ul>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="clearfix">
+								<div class="pull-left">
+									<h6><a href=""></a></h6>
+								</div>
+								<div class="pull-right">
+									<div class="year"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="#" class="lightbox-image video-box"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
+							<img src="https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" alt="" />
+							<div class="overlay-box">
+								<ul class="post-meta">
+									<li><span class="icon fa fa-star"></span>5.7</li>
+									<li><span class="icon fa fa-comment"></span>25</li>
+								</ul>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="clearfix">
+								<div class="pull-left">
+									<h6><a href="movie.html"></a></h6>
+								</div>
+								<div class="pull-right">
+									<div class="year"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Featured Section -->
+	
+	<!-- Store Section -->
+	<section class="store-section">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title centered">
+				<div class="title">Online Cart</div>
+				<h2>Our popular products</h2>
+			</div>
+			<!-- End Sec Title -->
+			
+			<div class="four-item-carousel owl-carousel owl-theme">
+				
+				<!-- Product Block -->
+				<div class="product-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="shop-single.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXpKRB9ECZq-zB-_yy7jc3wV_tppSHoV-LXnawM7ByXQ&s" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<a href="shop-single.html" class="name">Netflix</a>
+							<div class="price">249 DH</div>
+							<ul class="shop-options">
+								<li><a href="#" class="cart">Add to Cart</a></li>
+								<li><a href="#" class="fa fa-heart"></a></li>
+								<li><a href="#" class="fa fa-random"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Product Block -->
+				<div class="product-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="shop-single.html"><img src="https://yt3.googleusercontent.com/qSrChGRsLCXkUyJ89Aiv3lV4tEn4QpYj6aH4kYiTKpihgGQ8yNmhKBLYNzYfOw74idcWx4v62Q=s900-c-k-c0x00ffffff-no-rj" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<a href="shop-single.html" class="name">SHAHID VIP</a>
+							<div class="price">150 DH </div>
+							<ul class="shop-options">
+								<li><a href="" class="cart">Add to Cart</a></li>
+								<li><a href="" class="fa fa-heart"></a></li>
+								<li><a href="" class="fa fa-random"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Product Block -->
+				<div class="product-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="shop-single.html"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/fe47eb155964213.Y3JvcCwxMDczLDgzOSw2MywxODA.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<a href="shop-single.html" class="name">OSN PLUS</a>
+							<div class="price">200 DH </div>
+							<ul class="shop-options">
+								<li><a href="" class="cart">Add to Cart</a></li>
+								<li><a href="" class="fa fa-heart"></a></li>
+								<li><a href="" class="fa fa-random"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Product Block -->
+				<div class="product-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="shop-single.html"><img src="https://arabtik.com/wp-content/uploads/2023/12/tod-tv-nedir-nereden-ve-nasil-izlenir-tod-tv-uyelik-ucretsiz-mi-nasil-yapilir-2023-tod-tv-ucretsiz-canli-izle-576.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<a href="shop-single.html" class="name">TOD 4K</a>
+							<div class="price">300 DH</div>
+							<ul class="shop-options">
+								<li><a href="" class="cart">Add to Cart</a></li>
+								<li><a href="" class="fa fa-heart"></a></li>
+								<li><a href="" class="fa fa-random"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Product Block -->
+				<div class="product-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="shop-single.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSq5bzBSykcjYD7QCfin81BkQdpcWTDH4TJdFnEiVwMg&s" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<a href="shop-single.html" class="name">SPOTIFY FAMILY</a>
+							<div class="price">200 DH</div>
+							<ul class="shop-options">
+								<li><a href="" class="cart">Add to Cart</a></li>
+								<li><a href="" class="fa fa-heart"></a></li>
+								<li><a href="" class="fa fa-random"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Product Block -->
+				<div class="product-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="shop-single.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Amazon_Prime_Video_blue_logo_1.svg/2048px-Amazon_Prime_Video_blue_logo_1.svg.png" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<a href="shop-single.html" class="name">AMAZON PRIME VIDEO</a>
+							<div class="price">150 DH </div>
+							<ul class="shop-options">
+								<li><a href="" class="cart">Add to Cart</a></li>
+								<li><a href="" class="fa fa-heart"></a></li>
+								<li><a href="" class="fa fa-random"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Product Block -->
+				<div class="product-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="shop-single.html"><img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/282973359/original/0f19209ba67cd4fa510b9143668b7eb4835a43c6/design-awesome-iptv-logo-with-free-vector-file.png" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<a href="shop-single.html" class="name">IP TV </a>
+							<div class="price">300 DH</div>
+							<ul class="shop-options">
+								<li><a href="shop-single.html" class="cart">Add to Cart</a></li>
+								<li><a href="shop-single.html" class="fa fa-heart"></a></li>
+								<li><a href="shop-single.html" class="fa fa-random"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Product Block -->
+				<div class="product-block">
+					<div class="inner-box">
+						<div class="image">
+							<a href="shop-single.html"><img src="https://sm.ign.com/ign_mear/screenshot/default/disneyplus00_cdh7.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<a href="shop-single.html" class="name">DISNEY PLUS</a>
+							<div class="price">230 DH </div>
+							<ul class="shop-options">
+								<li><a href="shop-single.html" class="cart">Add to Cart</a></li>
+								<li><a href="shop-single.html" class="fa fa-heart"></a></li>
+								<li><a href="shop-single.html" class="fa fa-random"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Store Section -->
+	
+	<!-- CTA Section -->
+	<section class="cta-section">
+		<div class="auto-container">
+			<div class="inner-container" style="background-image: url(images/background/pattern-11.png)">
+				<div class="row clearfix">
+					
+					<!-- Title Column -->
+					<div class="title-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<h3></h3>
+							<div class="text">  <h3>ابق على اطلاع بآخر أخبارنا ومنتجاتنا الجديدة</h3></div>
+						</div>
+					</div>
+					
+					<!-- Form Column -->
+					<div class="form-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="newsletter-form">
+								<form method="post" action="">
+									<div class="form-group">
+									
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End CTA Section -->
+	
+	<!-- Main Footer -->
+    <footer class="main-footer">
+		<div class="pattern-layer-one" style="background-image: url(images/background/pattern-12.png)"></div>
+		<div class="pattern-layer-two" style="background-image: url(images/background/pattern-13.png)"></div>
+    	<div class="auto-container">
+            <div class="widgets-section">
+            	<div class="logo">
+					<a href="index.html"><img src="images/logo-2.png" width="89" alt="" /></a>
+				</div>
+				<ul class="contact-info-list">
+					<li>
+						<span class="icon"><img src="images/icons/icon-1.png" alt="" /></span>
+						<a href="tel:+212645859835 ">+212645859835</a><br>
+						
+					</li>
+					<li>
+						<span class="icon"><img src="images/icons/icon-2.png" alt="" /></span>
+						<a href="mailto:online@cart.com">online@cart.com</a><br>
+						
+					</li>
+					<li>
+						<span class="icon"><img src="images/icons/icon-3.png" alt="" /></span>
+						53 BOUKHALEF <br>TANGER
+					</li>
+				</ul>
+				
+				<!-- Social Box -->
+				<ul class="social-box">
+					<li><a href="https://www.facebook.com/profile.php?id=61552719251579&mibextid=ZbWKwL" target="_blank" class="fa fa-facebook-f"></a></li>
+
+				</ul>
+				
+			</div>
+			
+		</div>
+		<!-- Footer Bottom -->
+		<div class="footer-bottom">
+			<div class="auto-container">
+				<div class="copyright">&copy; 2024 ONLINE CART <br> All Rights Reserved </a></div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Main Footer -->
+	
+</div>
+<!--End pagewrapper-->
+
+<!-- Search Popup -->
+<div class="search-popup">
+	<div class="color-layer"></div>
+	<button class="close-search"><span class="fa fa-arrow-up"></span></button>
+	<form method="post" action="blog.html">
+		<div class="form-group">
+			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</div>
+	</form>
+</div>
+<!-- End Header Search -->
+
+<!-- Scroll To Top -->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/tilt.jquery.min.js"></script>
+<script src="js/jquery.paroller.min.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/nav-tool.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/script.js"></script>
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+</body>
+</html>
